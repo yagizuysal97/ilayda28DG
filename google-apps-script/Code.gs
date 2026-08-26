@@ -8,7 +8,7 @@
  */
 
 // js/config.js içindeki SECRET_TOKEN ile BİREBİR AYNI olmalı.
-const SECRET_TOKEN = "ilayda28-sirri-degistir";
+const SECRET_TOKEN = "ilayda28";
 
 // Kullanılacak sheet'in adı (aynı Google E-Tablosu içinde).
 const SHEET_NAME = "Mesajlar";
