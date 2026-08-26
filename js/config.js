@@ -6,11 +6,11 @@
 const CONFIG = {
   // Google Apps Script'i "Web Uygulaması" olarak yayınladığında
   // sana verilen URL. README.md → "1. Adım"a bak.
-  GAS_URL: "BURAYA_APPS_SCRIPT_WEB_APP_URLINI_YAPISTIR",
+  GAS_URL: "https://script.google.com/macros/s/AKfycbwsqifZ8KkiqVO1B3wCDct-Dh6jV_dVA3qHMFDeu0MIqllJUUAoWZkQDNvn3nzbHdyZ/exec",
 
   // Apps Script (Code.gs) içindeki SECRET_TOKEN ile birebir aynı olmalı.
   // Sadece mesajları listeleyen (admin) sayfanın Sheet'e erişebilmesi için.
-  SECRET_TOKEN: "ilayda28-sirri-degistir",
+  SECRET_TOKEN: "ilayda28",
 
   // Anı defterini görüntüleme (admin.html) sayfasının şifresi.
   // Bu tamamen istemci tarafı basit bir kilittir, çok gizli bilgi
@@ -26,6 +26,6 @@ const CONFIG = {
     time: "19:30 – 20:00",
     place: "Koç Topluluğu Spor Korusu",
     phone: "0534 760 20 80",
-    mapsQuery: "Koç Topluluğu Spor Korusu"
+    mapsQuery: "Kuzguncuk, Kuşbakışı Cd. 16/1 D:1, 34662 Üsküdar/İstanbul"
   }
 };
