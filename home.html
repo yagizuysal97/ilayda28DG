@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>İlayda 28 — Doğum Günü</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="logo">İlayda <span>28</span></div>
+  <a href="tel:05347602080" class="btn btn-ghost" style="padding:9px 18px; font-size:0.85rem;">Ara</a>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <p class="hero-eyebrow">26 Ağustos · Korudaki Akşam</p>
+      <h1 class="hero-title">Bugün <em>İlayda'nın</em><br>28. yaşı.</h1>
+      <p class="hero-sub">
+        Bu sayfa, İlayda'yı sevenlerin bir araya geldiği küçük ama sıcak bir akşamın
+        davetiyesi. Aşağıda adres, saat ve iletişim bilgileri var — en altta da
+        ona söylemek istediğin bir şey varsa bırakabileceğin bir köşe.
+      </p>
+      <div class="hero-actions">
+        <a href="#etkinlik" class="btn btn-primary">Etkinlik Bilgisi</a>
+        <a href="#defter" class="btn btn-ghost">Anı Bırak</a>
+      </div>
+    </div>
+    <div class="hero-photo-stack">
+      <img class="photo-back" src="assets/photos/ilayda-1.jpg" alt="İlayda" onerror="this.style.display='none'">
+      <img class="photo-front" src="assets/photos/ilayda-2.jpg" alt="İlayda" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<section class="ticket-section" id="etkinlik">
+  <div class="ticket">
+    <div class="ticket-main">
+      <p class="ticket-label">Davetiye</p>
+      <h2 class="ticket-title">İlayda'nın Doğum Günü</h2>
+      <div class="ticket-rows">
+        <div class="ticket-row"><span class="k">Tarih</span><span>26 Ağustos, bugün</span></div>
+        <div class="ticket-row"><span class="k">Saat</span><span>19:30 – 20:00</span></div>
+        <div class="ticket-row"><span class="k">Yer</span><span>Koç Topluluğu Spor Korusu</span></div>
+        <div class="ticket-row">
+          <span class="k">Yol Tarifi</span>
+          <a href="https://www.google.com/maps/search/?api=1&query=Ko%C3%A7%20Toplulu%C4%9Fu%20Spor%20Korusu" target="_blank" rel="noopener" style="text-decoration:underline;">Haritada aç →</a>
+        </div>
+      </div>
+    </div>
+    <div class="ticket-stub">
+      <span class="stub-day">26</span>
+      <span class="stub-month">Ağustos</span>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section">
+  <div class="section-head">
+    <p class="section-eyebrow">Bir Kaç Kare</p>
+    <h2 class="section-title">Onu bu kadar sevilesi yapan şeylerden birkaçı</h2>
+    <p class="section-note">assets/photos klasörüne kendi fotoğraflarını ekleyip dosya adlarını güncelleyebilirsin.</p>
+  </div>
+  <div class="gallery-grid">
+    <img src="assets/photos/ilayda-1.jpg" alt="İlayda" onerror="this.style.display='none'">
+    <img src="assets/photos/ilayda-2.jpg" alt="İlayda" onerror="this.style.display='none'">
+    <img src="assets/photos/ilayda-3.jpg" alt="İlayda" onerror="this.style.display='none'">
+    <img src="assets/photos/ilayda-4.jpg" alt="İlayda" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<section class="contact-section">
+  <p class="section-eyebrow">İletişim</p>
+  <h2 class="section-title">Sorun olursa beni arayabilirsin</h2>
+  <a href="tel:05347602080" class="contact-phone">📞 0534 760 20 80</a>
+</section>
+
+<section class="guestbook-section" id="defter">
+  <div class="section-head">
+    <p class="section-eyebrow">Anı Defteri</p>
+    <h2 class="section-title">İlayda hakkında ne düşünüyorsun?</h2>
+    <p class="section-note">Adını ve ona söylemek istediğin bir şeyi bırak, hepsini ona ileteceğim.</p>
+  </div>
+
+  <form class="guestbook-form" id="guestbookForm">
+    <div class="field">
+      <label for="name">İsmin</label>
+      <input type="text" id="name" name="name" placeholder="Adın Soyadın" required maxlength="60">
+    </div>
+    <div class="field">
+      <label for="message">Mesajın</label>
+      <textarea id="message" name="message" placeholder="İlayda hakkında ne düşünüyorsun?" required maxlength="600"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Gönder</button>
+    <p class="form-status" id="formStatus"></p>
+  </form>
+</section>
+
+<footer class="site-footer">
+  İlayda'nın 28. yaş günü için sevgiyle hazırlandı.
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
